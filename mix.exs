@@ -32,7 +32,8 @@ defmodule Edeliver.Mixfile do
     [applications: [],
      mod: {Edeliver, []},
      registered: [Edeliver.Supervisor, Edeliver],
-     env: []
+     env: [],
+     extra_applications: [:logger, :sasl]
    ]
 
   defp deps do
