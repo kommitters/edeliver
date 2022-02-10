@@ -1,5 +1,10 @@
 eDeliver Versions
 =================
+__1.8.1__
+
+  - Backwards incompatible changes
+    - Add :logger and :sasl extra applications
+
 __1.8.0__
 
   - Backwards incompatible changes
